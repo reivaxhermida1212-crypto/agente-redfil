@@ -68,7 +68,7 @@ if check_password():
             }
             
             model = genai.GenerativeModel(
-                model_name="gemini-1.5-flash",
+                model_name="gemini-2.0-flash",
                 generation_config=generation_config,
                 system_instruction="Eres un experto en autopartes. Tu única fuente de verdad es el archivo PDF adjunto. Responde consultas sobre códigos de filtros, aplicaciones vehiculares y medidas. Si no encuentras el dato en el archivo, di 'No figura en el catálogo'."
             )
